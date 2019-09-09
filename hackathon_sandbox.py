@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 18 09:32:00 2019
-
-@author: tempey
-"""
-
 import pandas as pd
 import bugReportTokenizer as brt
 import collections as c
