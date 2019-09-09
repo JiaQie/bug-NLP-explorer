@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 10 08:15:48 2019
-
-@author: tempey
-"""
 from nltk.corpus import words
 from string import punctuation
 from collections import Counter
