@@ -3,7 +3,7 @@ A tool for technical managers to explore patterns, trends, and outliers in bug s
 The most important parts of a bug report are often contained in the free-entry description (or “Big Description”) field.
 
 bugReportTokenizer.py
-Breaks down free-entry description from bug report into bigrams of words
+breaks down free-entry description from bug report into bigrams of words
 
 
 Grakn_script.py
