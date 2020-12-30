@@ -28,6 +28,7 @@ def build_bug_graph(inputs):
 def bigram_template(bigram):
     return 'insert $bigram isa bigram, has name "' + bigram['name'] + '";'
 
+#to insert instances of "conincidence" where bigram_one and bigram_two conincide in the same report 
 def coincide_template(coincide):
     # match caller
     graql_insert_query = 'match $bigram_one isa bigram, has name "' + coincide["bigram_one"] + '";'
