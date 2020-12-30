@@ -27,7 +27,7 @@ rels = []
 
 
 for bigram_one in bigrams.keys():       
-    for bigram_two in bigrams.
+    for bigram_two in bigrams:
         coin = []
         for token in report:
             if bigrams.get(token,'') != '':
